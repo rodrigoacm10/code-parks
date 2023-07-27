@@ -24,6 +24,6 @@ tetsValid(birthYear);
 
 console.log(
   `Olá, ${name}! Em 2023, você completou ou completará ${
-    2023 - birthYear
+    2022 - birthYear
   } anos.`
 );
