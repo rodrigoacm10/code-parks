@@ -35,3 +35,13 @@ const addAnimal = function () {
 addAnimal();
 
 console.log(animals);
+
+animals.forEach((animal) => {
+  const index = animals.findIndex((el) => el === animal);
+
+  console.log(
+    `Animal ${index + 1}: Nome: ${animal[0]}, Espécie: ${animal[1]}, Idade: ${
+      animal[2]
+    }`
+  );
+});
