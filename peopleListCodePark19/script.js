@@ -40,7 +40,7 @@ peoples.forEach((people) => {
   const index = peoples.findIndex((el) => el === people);
 
   console.log(
-    `Animal ${index + 1}: Nome: ${people.name}, Idade: ${people.age}, Filho: ${
+    `Pessoa ${index + 1}: Nome: ${people.name}, Idade: ${people.age}, Filho: ${
       people.child
     }`
   );
