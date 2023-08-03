@@ -1,4 +1,4 @@
-const arrNum = [15, 8, 10, 25, 12, 30, 5, 2, 18, 7];
+const arrNum = [15, 8, 10, 25, 12, 30, 5, 20, 18, 7];
 
 const finNum20 = function (arr) {
   try {
