@@ -2,8 +2,6 @@
 
 // Cada linha deve representar um animal e cada coluna terá as diferentes informações sobre ele, como nome, espécie e idade.
 
-console.log("ass");
-
 const animals = [
   ["Leão", "Felino", 5],
   ["Golfinho", "Mamífero Aquático", 10],
