@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- ex 2 -->
+    <!-- Exemplo de uso da tag <input> para criar caixas de seleção (checkboxes): -->
+    <form action="processar_formulario.php" method="post">
+      <label>
+        <input type="checkbox" name="interesses[]" value="esportes" /> Esportes
+      </label>
+
+      <label>
+        <input type="checkbox" name="interesses[]" value="tecnologia" />
+        Tecnologia
+      </label>
+
+      <label>
+        <input type="checkbox" name="interesses[]" value="viagens" /> Viagens
+      </label>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
