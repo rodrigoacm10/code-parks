@@ -13,5 +13,7 @@ const calcMedia = function () {
   const nota3 = +prompt("insira a terceira nota (0 - 10):");
   const media = [nota1, nota2, nota3].reduce((acc, num) => (acc += num), 0) / 3;
   console.log(media);
+
+  calcMedia();
 };
 calcMedia();
