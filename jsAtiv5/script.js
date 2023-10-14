@@ -36,7 +36,7 @@ const banco = {
 };
 
 const bancoFuncs = function () {
-  const yesOrNo = prompt("Deseja saber a média de três notas? (s/n)");
+  const yesOrNo = prompt("Deseja fazer operações bancárias? (s/n)");
 
   if (yesOrNo == "n") {
     return;

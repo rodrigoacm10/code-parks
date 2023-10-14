@@ -17,7 +17,7 @@ const caseOperatorFunc = function (a, b, operador) {
 };
 
 const calc = function () {
-  const yesOrNo = prompt("Deseja saber a média de três notas? (s/n)");
+  const yesOrNo = prompt("Deseja calcular algo? (s/n)");
 
   if (yesOrNo == "n") {
     return;

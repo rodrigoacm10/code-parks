@@ -22,13 +22,13 @@ function caseOperatorFunc(a, b, operador) {
 
 const calc = function () {
   try {
-    const yesOrNo = prompt("Deseja saber a média de três notas? (s/n)");
+    const yesOrNo = prompt("Deseja calcular algo? (s/n)");
 
     if (yesOrNo == "n") {
       return;
     } else if (yesOrNo != "s") {
       alert("insira um valor correto");
-      return;
+      throw new Error("insira um valor correto");
     }
 
     const num1 = +prompt("Informe o primeiro valor: ");
