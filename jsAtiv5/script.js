@@ -6,6 +6,7 @@ const banco = {
 
   buscarSaldo() {
     console.log(this.saldo);
+    alert(this.saldo);
     return this.saldo;
   },
   deposito(num) {
@@ -15,6 +16,7 @@ const banco = {
     }
     this.saldo += num;
     console.log(this.saldo);
+    alert(this.saldo);
     return this.saldo;
   },
   saque(num) {
@@ -24,10 +26,12 @@ const banco = {
     }
     this.saldo -= num;
     console.log(this.saldo);
+    alert(this.saldo);
     return this.saldo;
   },
   numConta() {
     console.log(this.conta);
+    alert(this.conta);
   },
 };
 
