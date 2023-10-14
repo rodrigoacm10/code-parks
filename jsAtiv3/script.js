@@ -7,7 +7,7 @@ const caseOperatorFunc = function (a, b, operador) {
     case "*":
       return a * b;
     case "/":
-      const div = a / b;
+      const div = Math.floor(a / b);
       const resto = a % b;
       if (resto) return `Resultado: ${div} resto: ${resto}`;
       return a / b;
